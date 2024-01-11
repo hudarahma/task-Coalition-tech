@@ -1,0 +1,254 @@
+.home__container {
+    width: 100%;
+    height: 100vh;
+    /* background: red; */
+}
+
+
+.landing__page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/assets/bg-montain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home__img{
+    width: 100%;
+    height: 400px;
+    /* background: pink; */
+    display: inline-block;
+    position: absolute;
+    top: 260px;
+    left: -52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.losangeles {
+    display: inline-block;
+    position: absolute;
+    top: 36%;
+    right: 37%;
+}
+
+.header {
+    /* background: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tabs {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.tabs a {
+    text-decoration: underline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* HIstory Section */
+.history__section {
+    background-image: url("/public/assets/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.history__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(255 255 255);
+    height: 70px;
+    width: 100%;
+}
+
+.logo__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history__tabs {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.history__tabs a {
+    
+    color: rgb(27, 23, 23);
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.history__contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 65%;
+    height: 340px;
+    /* background: green; */
+}
+
+.history__title {
+    width: 40%;
+    height: 100px
+}
+
+
+.history__title h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #a0a7b5;
+}
+
+.history__title h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+    top: -75px;
+    left: 67px;
+    color: #414f6b;
+}
+.history__discription p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+
+/* Climb Section */
+
+.climb__section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.climb__contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 146px;
+}
+
+.climb__title {
+    width: 40%;
+    height: 100px;
+}
+.climb__title h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #a0a7b5;
+}
+
+.climb__title h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+    top: -75px;
+    left: 67px;
+    color: #414f6b;
+}
+
+.climb__discription p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.climb__tabs {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #414f6b;
+}
+.mountain__tabs {
+    font-size: 18px;
+    font-weight: 500;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mountain__tabs a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #b0b4be;
+}
+
+.mountain__tabs a:hover {
+    background-color: #b0b4be;
+    color: #414f6b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.climb__schedule {
+    background-image: url("/public/assets/bg-2.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:1440px) {
+
+    .losangeles {
+        width: 430px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .losangeles {
+        width: 430px;
+    }
+}
+
+@media screen and (max-width: 1141px) {
+    .climb__title h2 {
+        font-size: 40px;
+    }
+    .climb__title h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .climb__title h2   {
+        font-size: 20px;
+    }
+
+    .climb__title h3 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .losangeles {
+        width: 194px;
+    }
+}

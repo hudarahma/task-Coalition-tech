@@ -1,0 +1,14 @@
+.carousal__container {
+    background: #414f6bb5;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.img {
+    margin-right: 20px;
+}

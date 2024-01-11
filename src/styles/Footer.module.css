@@ -1,0 +1,17 @@
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #414f6b;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.2;
+}
+
+.footer__text {
+    color: #a0a7b5;
+}
